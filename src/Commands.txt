@@ -1,0 +1,3 @@
+docker ps --all  // Show all containers (default shows just running)
+docker images //will show all top level images, their repository and tags, and their size
+docker run -d -p 27017:27017 --name shopping-mongo mongo
